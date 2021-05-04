@@ -41,7 +41,9 @@ public static void bubble_sort(int list[], int n) {
 경과시간 : 18 (뒤도 모두 정상 정렬되었습니다.)
 
 * 정렬된 리스트(일부만 혼합)
+
 1) 리스트
+
 ![image](https://user-images.githubusercontent.com/80096249/117011472-d643d980-ad28-11eb-824c-ee97cfdc0fbc.png)
 
 2)결과
@@ -74,7 +76,9 @@ public static void insertion_sort(int a[],int SIZE)
 ### 삽입정렬결과
 
 * 역순
+
 1) 메인함수(리스트의 갯수는 1000개입니다.)
+
 ![image](https://user-images.githubusercontent.com/80096249/117010724-08a10700-ad28-11eb-9f6b-ab627e7cafe3.png)
 
 2) 결과
@@ -124,6 +128,7 @@ public static void insertion_sort(int a[],int SIZE)
 ### 선택정렬결과
 
 * 역순
+
 1) 메인함수(리스트의 갯수는 1000개입니다.)
 
 ![image](https://user-images.githubusercontent.com/80096249/116982106-5bb49300-ad03-11eb-8e46-d6709078f6d8.png)
@@ -179,6 +184,7 @@ public static void inc_insertion_sort(int[] list, int first, int last, int gap)
 ### 쉘정렬결과
 
 * 역순
+
 1) 메인함수(리스트의 갯수는 1000개입니다.)
 
 ![image](https://user-images.githubusercontent.com/80096249/117013470-df35aa80-ad2a-11eb-92a5-c2aed850b010.png)
@@ -205,6 +211,28 @@ public static void inc_insertion_sort(int[] list, int first, int last, int gap)
 
 ## 결론
 
-다익스트라 (Dijkstra)의 최단 경로 알고리즘은 출발점으로부터 최단 거리가 확정되지 않은 점들 중에서 출발점으로부터 가장 가까운 점을 추가하고, 그 점의 최단 거리를 확정한다.     
+(성능을 테스트하기 위해 모든 정렬에 똑같은 리스트를 적용하였습니다.)
+경과시간을 기준으로 가장 성능이 안좋은 정렬은 버블정렬이었습니다. 경과시간: 18.5
 
-시간복잡도는 O(n2)로 정점의 수가 늘어날수록 실행시간이 길어졌다.
+경과시간을 기준으로 가장 성능이 좋은 정렬은 삽입정렬이었습니다. 경과시간 : 14
+
+이론과 비교하여(최악의 경우를 기준으로)
+버블정렬(O(n^2))
+선택정렬(O(n^2))
+삽입정렬(O(n^2)); 정렬되어있을 경우 (O(n))
+쉘정렬(O(n^2))
+
+이론과 결과값을 비교하여 정렬된 값을 기준으로 삽입정렬이 가장 빨랐다.(이론과 일치)
+
+이론과 결과값을 비교하여 가장 느린 것은 버블정렬이다.(이론과 일치)
+
+이론과 결과값을 비교하여 역순을 기준으로 결과는 삽입정렬이 이론상으로는 일반적인 정렬에 관하여 평균적으로 shellsort가 insertionsort보다 빠를 수 있으며,
+
+최악의 경우를 기준으로 전체적으로 이론과 일치하다.
+
+#### 이론과 차이가 난 이유
+
+1) 코드의 최적화가 덜 되었을 수 있다.
+2) 같은 리스트를 입력하더라도 매번 시간의 차이가 발생한다.(편차)
+3) 리스트에 더 차별화를 두었어야 할 수 있다.
+4) 리스트의 수가 더 많아야 할 수 있다.
