@@ -34,6 +34,7 @@ public static void bubble_sort(int list[], int n) {
 ![image](https://user-images.githubusercontent.com/80096249/116971506-a24ec100-acf4-11eb-943f-e0faccb27ca7.png)
 
 2)결과
+
 ![image](https://user-images.githubusercontent.com/80096249/116971577-bd213580-acf4-11eb-8ffa-2a5ed6f7d989.png)
 
 경과시간 : 6
@@ -43,11 +44,12 @@ public static void bubble_sort(int list[], int n) {
 ![image](https://user-images.githubusercontent.com/80096249/116972813-8ea45a00-acf6-11eb-83b4-e96622b24c28.png)
 
 2)결과
+
 ![image](https://user-images.githubusercontent.com/80096249/116972889-a976ce80-acf6-11eb-81be-959d6d67a009.png)
 
 경과시간 : 6 (시간의 차이가 없다)
 
-## 삽입정렬의 구현
+## 삽입정렬구현
 ​ 
 * 배열을 정렬된 부분과 정렬 안 된 부분으로 나누고, 정렬 안 된 부분의 원소를 적절한 위치에 삽입하여 정렬되도록 하는 과정을 반복한다.
 ```
@@ -66,10 +68,25 @@ public static void insertion_sort(int a[],int SIZE)
     }
 ```
 ​ 
-1. 정렬되지 않은 a[i]를 for문을 통해 정렬된 부분으로 만든다.
+1. 정렬되지 않은 a[i]를 for문을 거쳐 정렬된 부분으로 만든다.
 
-### 삽입정렬
+### 삽입정렬결과
 
+* 역순
+1) 메인함수(리스트의 갯수는 30개입니다.)
+![image](https://user-images.githubusercontent.com/80096249/116977087-f6f63a00-acfc-11eb-96c7-d60820fa8e20.png)
+
+2) 결과
+
+![image](https://user-images.githubusercontent.com/80096249/116977864-e6928f00-acfd-11eb-9edc-caafba90756f.png)
+
+경과시간 : 6
+
+* 정렬된 리스트(일부만 혼합)
+1) 리스트
+![image](https://user-images.githubusercontent.com/80096249/116972813-8ea45a00-acf6-11eb-83b4-e96622b24c28.png)
+
+2)결과
 
 ---
 
