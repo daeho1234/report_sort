@@ -32,23 +32,23 @@ public static void bubble_sort(int list[], int n) {
 
 1) 메인함수(리스트의 갯수는 30개입니다.)
 
-![image](https://user-images.githubusercontent.com/80096249/116971506-a24ec100-acf4-11eb-943f-e0faccb27ca7.png)
+![image](https://user-images.githubusercontent.com/80096249/117011941-579b6c00-ad29-11eb-98fe-d77905c35a1b.png)
 
 2)결과
 
-![image](https://user-images.githubusercontent.com/80096249/116971577-bd213580-acf4-11eb-8ffa-2a5ed6f7d989.png)
+![image](https://user-images.githubusercontent.com/80096249/117011869-45b9c900-ad29-11eb-9cb3-b82fefc7857d.png)
 
-경과시간 : 6
+경과시간 : 18 (뒤도 모두 정상 정렬되었습니다.)
 
 * 정렬된 리스트(일부만 혼합)
 1) 리스트
-![image](https://user-images.githubusercontent.com/80096249/116982153-6a02af00-ad03-11eb-805e-61669472a1d3.png)
+![image](https://user-images.githubusercontent.com/80096249/117011472-d643d980-ad28-11eb-824c-ee97cfdc0fbc.png)
 
 2)결과
 
-![image](https://user-images.githubusercontent.com/80096249/116972889-a976ce80-acf6-11eb-81be-959d6d67a009.png)
+![image](https://user-images.githubusercontent.com/80096249/117011700-0e4b1c80-ad29-11eb-8b66-160228dff61d.png)
 
-경과시간 : 6 (시간의 차이가 없다)
+경과시간 : 19 (뒤도 모두 정상 정렬되었습니다.)
 
 ## 삽입정렬구현
 
@@ -125,6 +125,7 @@ public static void insertion_sort(int a[],int SIZE)
 
 * 역순
 1) 메인함수(리스트의 갯수는 1000개입니다.)
+
 ![image](https://user-images.githubusercontent.com/80096249/116982106-5bb49300-ad03-11eb-8e46-d6709078f6d8.png)
 
 2)결과
@@ -178,24 +179,27 @@ public static void inc_insertion_sort(int[] list, int first, int last, int gap)
 ### 쉘정렬결과
 
 * 역순
-1) 메인함수(리스트의 갯수는 30개입니다.)
-![image](https://user-images.githubusercontent.com/80096249/116980930-d54b8180-ad01-11eb-8d47-7dd7144f6b6b.png)
+1) 메인함수(리스트의 갯수는 1000개입니다.)
+
+![image](https://user-images.githubusercontent.com/80096249/117013470-df35aa80-ad2a-11eb-92a5-c2aed850b010.png)
 
 2)결과
 
-![image](https://user-images.githubusercontent.com/80096249/116980960-de3c5300-ad01-11eb-95d9-6a860d2113f5.png)
+![image](https://user-images.githubusercontent.com/80096249/117013527-ec529980-ad2a-11eb-9d83-682b4b00a751.png)
 
-경과시간 : 6
+경과시간 : 15
 
 * 정렬된 리스트(일부만 혼합)
+
 1) 리스트
-![image](https://user-images.githubusercontent.com/80096249/116972813-8ea45a00-acf6-11eb-83b4-e96622b24c28.png)
+
+![image](https://user-images.githubusercontent.com/80096249/117011485-d9d76080-ad28-11eb-9027-5d280daca710.png)
 
 2)결과
 
-![image](https://user-images.githubusercontent.com/80096249/116972889-a976ce80-acf6-11eb-81be-959d6d67a009.png)
+![image](https://user-images.githubusercontent.com/80096249/117013658-07250e00-ad2b-11eb-8ef2-ebc3c237074e.png)
 
-경과시간 : 6 (시간의 차이가 없다)
+경과시간 : 15
 
 
 
