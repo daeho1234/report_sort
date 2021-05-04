@@ -29,7 +29,9 @@ public static void bubble_sort(int list[], int n) {
 ### 버블정렬결과
 
 * 역순
+
 1) 메인함수(리스트의 갯수는 30개입니다.)
+
 ![image](https://user-images.githubusercontent.com/80096249/116971506-a24ec100-acf4-11eb-943f-e0faccb27ca7.png)
 
 2)결과
