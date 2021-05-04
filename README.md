@@ -209,7 +209,7 @@ public static void inc_insertion_sort(int[] list, int first, int last, int gap)
 
 
 
-## 결론
+## 결론 (성능분석)
 
 (성능을 테스트하기 위해 모든 정렬에 똑같은 리스트를 적용하였습니다.)
 경과시간을 기준으로 가장 성능이 안좋은 정렬은 버블정렬이었습니다. 경과시간: 18.5
