@@ -3,14 +3,73 @@
 ---
 – 목표 : 쉘정렬, 버블정렬, 선택정렬, 삽입정렬의 구현
 
+​
+
+##  버블정렬구현
 ​ 
+* 이웃하는 숫자를 비교해 작은 수를 앞으로 이동시키는 과정을 반복한다.
+```
+public static void bubble_sort(int list[], int n) {
+        int i, j, temp;
+        for (i = n - 1; i > 0; i--) {
+            for (j = 0; j < i; j++)
+                if (list[j] > list[j + 1]) {
+                    temp = list[j];
+                    list[j] = list[j + 1];
+                    list[j + 1] = temp;
+                }
+        }
+        for (j = 0; j < n; j++)
+            System.out.print(list[j] + " ");
+    }
+```
+​  
+1. bubble_sort를 다음과 같이 구현했습니다.(n : 사이즈)
+2. for문을 이용해 반복하여 비교하고 비교된 내용 list[j]가 list[j+1]보다 크다면 서로 SWAP(temp를이용)되도록 하였습니다.
 
-##  다익스트라(Dijkstra) 의 최단 경로 알고리즘
+### 버블정렬결과
 
-​    
+* 역순
+1) 메인함수(리스트의 갯수는 30개입니다.)
+![image](https://user-images.githubusercontent.com/80096249/116971506-a24ec100-acf4-11eb-943f-e0faccb27ca7.png)
 
-* 단일 시작점 최단 경로 알고리즘
-* 시작 정점 v에서 부터 다른 정점까지의 최단 거리를 계산
+2)결과
+![image](https://user-images.githubusercontent.com/80096249/116971577-bd213580-acf4-11eb-8ffa-2a5ed6f7d989.png)
+
+경과시간 : 6
+
+* 정렬된 리스트(일부만 혼합)
+1) 리스트
+![image](https://user-images.githubusercontent.com/80096249/116972813-8ea45a00-acf6-11eb-83b4-e96622b24c28.png)
+
+2)결과
+![image](https://user-images.githubusercontent.com/80096249/116972889-a976ce80-acf6-11eb-81be-959d6d67a009.png)
+
+경과시간 : 6 (시간의 차이가 없다)
+
+## 삽입정렬의 구현
+​ 
+* 배열을 정렬된 부분과 정렬 안 된 부분으로 나누고, 정렬 안 된 부분의 원소를 적절한 위치에 삽입하여 정렬되도록 하는 과정을 반복한다.
+```
+public static void insertion_sort(int a[],int SIZE)
+    {
+        int i, j, key;
+        for (i = 1; i < SIZE; i++)
+        {
+            key = a[i];
+            for (j = i - 1; j >= 0 && a[j] > key; j--)
+                a[j + 1] = a[j];
+            a[j + 1] = key;
+        }
+        for (int l = 0; l < SIZE; l++)
+            System.out.print(a[l] + " ");
+    }
+```
+​ 
+1. 정렬되지 않은 a[i]를 for문을 통해 정렬된 부분으로 만든다.
+
+### 삽입정렬
+
 
 ---
 
