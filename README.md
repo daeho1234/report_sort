@@ -74,24 +74,25 @@ public static void insertion_sort(int a[],int SIZE)
 ### 삽입정렬결과
 
 * 역순
-1) 메인함수(리스트의 갯수는 30개입니다.)
-![image](https://user-images.githubusercontent.com/80096249/116977087-f6f63a00-acfc-11eb-96c7-d60820fa8e20.png)
+1) 메인함수(리스트의 갯수는 1000개입니다.)
+![image](https://user-images.githubusercontent.com/80096249/117010724-08a10700-ad28-11eb-9f6b-ab627e7cafe3.png)
 
 2) 결과
 
-![image](https://user-images.githubusercontent.com/80096249/116977864-e6928f00-acfd-11eb-9edc-caafba90756f.png)
+![image](https://user-images.githubusercontent.com/80096249/117010805-24a4a880-ad28-11eb-9ff7-d193d7cba043.png)
 
-경과시간 : 6
+경과시간 : 14 (뒷부분도 모두 정상 정렬되었습니다.)
 
 * 정렬된 리스트(일부만 혼합)
+
 1) 리스트
-![image](https://user-images.githubusercontent.com/80096249/116982167-6d963600-ad03-11eb-9f8b-b7292c174786.png)
+
+![image](https://user-images.githubusercontent.com/80096249/117011160-8402b880-ad28-11eb-9ca8-491aedce40f5.png)
 
 2)결과
 
-![image](https://user-images.githubusercontent.com/80096249/116979546-180c5a00-ad00-11eb-85dd-a384d06095ce.png)
-
-경과시간 : 6
+![image](https://user-images.githubusercontent.com/80096249/117011085-6fbebb80-ad28-11eb-8bbf-05466c064167.png)
+경과시간 : 14
 
 ##  선택정렬구현
 
@@ -132,14 +133,16 @@ public static void insertion_sort(int a[],int SIZE)
 경과시간 : 18 (뒤도 모두 정상정렬되었습니다)
 
 * 정렬된 리스트(일부만 혼합)
+
 1) 리스트
+
 ![image](https://user-images.githubusercontent.com/80096249/116982122-60794700-ad03-11eb-9233-a22a014f8dc8.png)
 
 2)결과
 
-![image](https://user-images.githubusercontent.com/80096249/116980089-c7e1c780-ad00-11eb-90e6-748914323c13.png)
+![image](https://user-images.githubusercontent.com/80096249/117010308-a34d1600-ad27-11eb-9677-bc69b723e021.png)
 
-경과시간 : 6 (시간의 차이가 없다)
+경과시간 : 18 (시간의 차이가 없다) (뒤도 모두 정상정렬되었습니다)
 
 ##  쉘정렬구현
 
