@@ -92,7 +92,8 @@ public static void insertion_sort(int a[],int SIZE)
 2)결과
 
 ![image](https://user-images.githubusercontent.com/80096249/117011085-6fbebb80-ad28-11eb-8bbf-05466c064167.png)
-경과시간 : 14
+
+경과시간 : 14 (뒷부분도 모두 정상 정렬되었습니다.)
 
 ##  선택정렬구현
 
